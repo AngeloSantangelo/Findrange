@@ -22,12 +22,12 @@ while True:
     prediction = voting_classifier.predict(normalized_phone)
 
     if prediction[0]==0:
-        print("Your phone is in price range [30-75]€")
+        print("Your phone is in price range [200-350]€")
     elif prediction[0]==1:
-        print("Your phone is in price range [76-150]€")
+        print("Your phone is in price range [351-500]€")
     elif prediction[0]==2:
-        print("Your phone is in price range [151-220]€")
+        print("Your phone is in price range [501-650]€")
     else:
-        print("Your phone is in price range [221-300]€")
+        print("Your phone is in price range [650-800]€")
 
         
